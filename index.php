@@ -80,8 +80,8 @@ $result = curl_exec($ch);
 ?>
 
 
-<html>
+<!-- <html>
 <body>
 Ansered: <?php echo $_POST["day1a"]; ?>
 </body>
-</html>
+</html> -->
