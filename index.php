@@ -121,8 +121,8 @@
                                 </tr>
                                 <tr>
                                     <td>1. I have had a hangover (headache, sick stomach) the morning after I had been drinking.</td>
-                                    <td><input type="radio" name="q1" />&nbsp;</td>
-                                    <td><input type="radio" name="q1" />&nbsp;</td>
+                                    <td><input type="radio" name="q1" value="yes" />&nbsp;</td>
+                                    <td><input type="radio" name="q1" value="no" />&nbsp;</td>
                                 </tr>
                                 <tr>
                                     <td>2. I have taken foolish risks when I have been drinking.</td>

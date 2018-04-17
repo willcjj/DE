@@ -82,7 +82,60 @@ $result = curl_exec($ch);
 
 <html>
 <body>
-    answered: <?php echo $_POST["day1a"]; ?>
+    1a: <?php echo $_POST["day1a"]; ?>
+    1b: <?php echo $_POST["day1b"]; ?>
+    1c: <?php echo $_POST["day1c"]; ?>
+    2a: <?php echo $_POST["day2a"]; ?>
+    2b: <?php echo $_POST["day2b"]; ?>
+    2c: <?php echo $_POST["day2c"]; ?>
+    3a: <?php echo $_POST["day3a"]; ?>
+    3b: <?php echo $_POST["day3b"]; ?>
+    3c: <?php echo $_POST["day3c"]; ?>
+    4a: <?php echo $_POST["day4a"]; ?>
+    4b: <?php echo $_POST["day4b"]; ?>
+    4c: <?php echo $_POST["day4c"]; ?>
+    5a: <?php echo $_POST["day5a"]; ?>
+    5b: <?php echo $_POST["day5b"]; ?>
+    5c: <?php echo $_POST["day5c"]; ?>
+    6a: <?php echo $_POST["day6a"]; ?>
+    6b: <?php echo $_POST["day6b"]; ?>
+    6c: <?php echo $_POST["day6c"]; ?>
+    7a: <?php echo $_POST["day7a"]; ?>
+    7b: <?php echo $_POST["day7b"]; ?>
+    7c: <?php echo $_POST["day7c"]; ?>
+    8a: <?php echo $_POST["day8a"]; ?>
+    8b: <?php echo $_POST["day8b"]; ?>
+    8c: <?php echo $_POST["day8c"]; ?>
+    9a: <?php echo $_POST["day9a"]; ?>
+    9b: <?php echo $_POST["day9b"]; ?>
+    9c: <?php echo $_POST["day9c"]; ?>
+    10a: <?php echo $_POST["day10a"]; ?>
+    10b: <?php echo $_POST["day10b"]; ?>
+    10c: <?php echo $_POST["day10c"]; ?>
+    11a: <?php echo $_POST["day11a"]; ?>
+    11b: <?php echo $_POST["day11b"]; ?>
+    11c: <?php echo $_POST["day11c"]; ?>
+    12a: <?php echo $_POST["day12a"]; ?>
+    12b: <?php echo $_POST["day12b"]; ?>
+    12c: <?php echo $_POST["day12c"]; ?>
+    13a: <?php echo $_POST["day13a"]; ?>
+    13b: <?php echo $_POST["day13b"]; ?>
+    13c: <?php echo $_POST["day13c"]; ?>
+    14a: <?php echo $_POST["day14a"]; ?>
+    14b: <?php echo $_POST["day14b"]; ?>
+    14c: <?php echo $_POST["day14c"]; ?>
+    q1: <?php echo $_POST["q1"]; ?>
+    q2: <?php echo $_POST["q2"]; ?>
+    q3: <?php echo $_POST["q3"]; ?>
+    q4: <?php echo $_POST["q4"]; ?>
+    q5: <?php echo $_POST["q5"]; ?>
+    q6: <?php echo $_POST["q6"]; ?>
+    q7: <?php echo $_POST["q7"]; ?>
+    q8: <?php echo $_POST["q8"]; ?>
+    q9: <?php echo $_POST["q9"]; ?>
+    q10: <?php echo $_POST["q10"]; ?>
+
+
 </body>
 </html>
 
