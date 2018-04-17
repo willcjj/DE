@@ -8,7 +8,6 @@ $ch = curl_init($url);
 
 //The JSON data.
 $jsonData = array(
-    'userId' => $_POST["userId"], 
     'day1a' => $_POST["day1a"],  
     'day1b' => $_POST["day1b"],  
     'day1c' => $_POST["day1c"], 
@@ -85,7 +84,6 @@ $result = curl_exec($ch);
 
 <html>
 <body>
-    id: <?php echo $_POST["userId"]; ?>
     1a: <?php echo $_POST["day1a"]; ?>
     1b: <?php echo $_POST["day1b"]; ?>
     1c: <?php echo $_POST["day1c"]; ?>
@@ -139,6 +137,10 @@ $result = curl_exec($ch);
     q9: <?php echo $_POST["q9"]; ?>
     q10: <?php echo $_POST["q10"]; ?>
 
+
+</body>
+</html>
+
 <?php
 $jsonurl = "https://drug-education-project-backend.herokuapp.com/questions";
 $json = file_get_contents($jsonurl);
@@ -146,10 +148,4 @@ $json = file_get_contents($jsonurl);
 
 var_dump(json_encode($json));
 
-
 ?>
-</body>
-</html>
-
-
-
