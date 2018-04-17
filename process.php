@@ -80,3 +80,8 @@ $result = curl_exec($ch);
 ?>
 
 
+<html>
+<body>
+    answered: <?php echo $_POST["day1a"]; ?>
+</body>
+</html>
