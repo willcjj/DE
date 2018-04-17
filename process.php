@@ -142,8 +142,8 @@ $result = curl_exec($ch);
 <?php
 $jsonurl = "https://drug-education-project-backend.herokuapp.com/questions";
 $json = file_get_contents($jsonurl);
-echo $json;
 
-var_dump(json_decode($json));
+
+var_dump(json_encode($json));
 
 ?>
