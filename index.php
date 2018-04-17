@@ -1,3 +1,15 @@
+<?php
+session_start();
+
+$name= $_POST['userId'];
+
+$_SESSION['userId']= $name;
+
+echo "Hi " .  $_SESSION['userId'];
+
+?>
+
+
 <!DOCTYPE html>  
  <html>  
       <head>  
@@ -12,7 +24,7 @@
                     <p>For C, for how long did you consume these drinks (unit: hours)? Please input your amount in whole numbers.</p>
 
                         <form method="post" action="process.php">
-                            
+                        <?php include('error.php'); ?>
                             <table class="calendar">  
                                 <tr>
                                     <th>Sunday</th>
@@ -126,48 +138,48 @@
                                 </tr>
                                 <tr>
                                     <td>2. I have taken foolish risks when I have been drinking.</td>
-                                    <td><input type="radio" name="q2" />&nbsp;</td>
-                                    <td><input type="radio" name="q2" />&nbsp;</td>
+                                    <td><input type="radio" name="q2" value="yes" />&nbsp;</td>
+                                    <td><input type="radio" name="q2" value="no" />&nbsp;</td>
                                 </tr>
                                 <tr>
                                     <td>3. I’ve not been able to remember large stretches of time while drinking heavily.</td>
-                                    <td><input type="radio" name="q3" />&nbsp;</td>
-                                    <td><input type="radio" name="q3" />&nbsp;</td>
+                                    <td><input type="radio" name="q3" value="yes" />&nbsp;</td>
+                                    <td><input type="radio" name="q3" value="no" />&nbsp;</td>
                                 </tr>
                                 <tr>
                                     <td>4. The quality of my work or school work has suffered because of my drinking.</td>
-                                    <td><input type="radio" name="q4" />&nbsp;</td>
-                                    <td><input type="radio" name="q4" />&nbsp;</td>
+                                    <td><input type="radio" name="q4" value="yes" />&nbsp;</td>
+                                    <td><input type="radio" name="q4" value="no" />&nbsp;</td>
                                 </tr>
                                 <tr>
                                     <td>5. I have had less energy or felt tired because of my drinking.</td>
-                                    <td><input type="radio" name="q5" />&nbsp;</td>
-                                    <td><input type="radio" name="q5" />&nbsp;</td>
+                                    <td><input type="radio" name="q5" value="yes" />&nbsp;</td>
+                                    <td><input type="radio" name="q5" value="no" />&nbsp;</td>
                                 </tr>
                                 <tr>
                                     <td>6. My drinking has gotten me into sexual situations I later regretted.</td>
-                                    <td><input type="radio" name="q6" />&nbsp;</td>
-                                    <td><input type="radio" name="q6" />&nbsp;</td>
+                                    <td><input type="radio" name="q6" value="yes" />&nbsp;</td>
+                                    <td><input type="radio" name="q6" value="no" />&nbsp;</td>
                                 </tr>
                                 <tr>
                                     <td>7. I often have ended up drinking on nights when I had planned not to drink.</td>
-                                    <td><input type="radio" name="q7" />&nbsp;</td>
-                                    <td><input type="radio" name="q7" />&nbsp;</td>
+                                    <td><input type="radio" name="q7" value="yes" />&nbsp;</td>
+                                    <td><input type="radio" name="q7" value="no" />&nbsp;</td>
                                 </tr>
                                 <tr>
                                     <td>8. My physical appearance has been harmed by my drinking.</td>
-                                    <td><input type="radio" name="q8" />&nbsp;</td>
-                                    <td><input type="radio" name="q8" />&nbsp;</td>
+                                    <td><input type="radio" name="q8" value="yes" />&nbsp;</td>
+                                    <td><input type="radio" name="q8" value="no" />&nbsp;</td>
                                 </tr>
                                 <tr>
                                     <td>9. While drinking, I have said or done embarrassing things.</td>
-                                    <td><input type="radio" name="q9" />&nbsp;</td>
-                                    <td><input type="radio" name="q9" />&nbsp;</td>
+                                    <td><input type="radio" name="q9" value="yes" />&nbsp;</td>
+                                    <td><input type="radio" name="q9" value="no" />&nbsp;</td>
                                 </tr>
                                 <tr>
                                     <td>10. I have felt very sick to my stomach or thrown up after drinking.</td>
-                                    <td><input type="radio" name="q10" />&nbsp;</td>
-                                    <td><input type="radio" name="q10" />&nbsp;</td>
+                                    <td><input type="radio" name="q10" value="yes" />&nbsp;</td>
+                                    <td><input type="radio" name="q10" value="no" />&nbsp;</td>
                                 </tr>
                             </table>
                             <br>
