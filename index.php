@@ -82,6 +82,6 @@ $result = curl_exec($ch);
 
 <html>
 <body>
-welcome <?php echo $_POST["day1a"]; ?>
+Ansered: <?php echo $_POST["day1a"]; ?>
 </body>
 </html>
