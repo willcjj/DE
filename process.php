@@ -1,7 +1,7 @@
 <?php  
 
 //API Url
-$url = 'https://drug-education-project-backend.herokuapp.com/';
+$url = 'https://drug-education-project-backend.herokuapp.com/questions';
 
 //Initiate cURL.
 $ch = curl_init($url);
@@ -85,3 +85,9 @@ $result = curl_exec($ch);
     answered: <?php echo $_POST["day1a"]; ?>
 </body>
 </html>
+
+<?php
+$jsonurl = "https://drug-education-project-backend.herokuapp.com/questions";
+$json = file_get_contents($jsonurl);
+var_dump(json_decode($json));
+?>
