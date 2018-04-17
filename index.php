@@ -11,7 +11,7 @@
                     <p>For B, approximately how many drinks did you consume? Please input your amount in whole numbers.</p>
                     <p>For C, for how long did you consume these drinks (unit: hours)? Please input your amount in whole numbers.</p>
 
-                        <form method="post" action="index.php">
+                        <form method="post" action="process.php">
                             
                             <table class="calendar">  
                                 <tr>
