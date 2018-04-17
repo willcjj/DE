@@ -79,7 +79,7 @@ $result = curl_exec($ch);
 
  $message = '';  
  $error = '';  
- if(isset($_POST["submit"]))  
+ /* if(isset($_POST["submit"]))  
  {  
       if(empty($_POST["day1a"]))  
       {  
@@ -291,7 +291,7 @@ $result = curl_exec($ch);
       }
       else{
           echo $_POST["team"];
-      }
+      } */
     //   else  
     //   {  
     //        if(file_exists('data.json'))    //convert php associative array to json
@@ -543,7 +543,7 @@ $result = curl_exec($ch);
                                     <td><input type="radio" name="q10" />&nbsp;</td>
                                 </tr>
                             </table>
-                            <input type="submit" name="submit" value="Append"/><br />                      
+                            <input type="submit" name="submit" value="Submit"/><br />                      
                             <?php  
                             if(isset($message))  
                             {  
