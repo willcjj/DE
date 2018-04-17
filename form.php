@@ -12,12 +12,7 @@
                     <p>For C, for how long did you consume these drinks (unit: hours)? Please input your amount in whole numbers.</p>
 
                         <form method="post" action="index.php>
-                            <?php   
-                                if(isset($error))  
-                                {  
-                                    echo $error;  
-                                }  
-                            ?>
+                            
                             <table class="calendar">  
                                 <tr>
                                     <th>Sunday</th>
@@ -176,84 +171,10 @@
                                 </tr>
                             </table>
                             <input type="submit" name="submit" value="Submit"/><br />                      
-                            <?php  
-                            if(isset($message))  
-                            {  
-                                echo $message;  
-                            }  
-                            ?>
+                            
                         </form>
                     </div>
                     
-                    <!-- <div class="q2">
-                        <h2>2. Brief Young Adult Alcohol Consequences Questionnaire</h2>
-                        <p>
-                        Below is a list of things that sometimes happen to people either during or after they have been drinking alcohol.  Next to each item below, please mark an “X” in either the NO or the YES column to indicate whether that item describes something that has happened to you IN THE PAST YEAR.
-                        </p>
-
-                        <form method="post">
-                            
-                            <table class="trueFalse">
-                                <tr>
-                                    <th>In the past year...</th>
-                                    <th>YES</th>
-                                    <th>NO</th>
-                                </tr>
-                                <tr>
-                                    <td>1. I have had a hangover (headache, sick stomach) the morning after I had been drinking.</td>
-                                    <td><input type="radio" name="q1" />&nbsp;</td>
-                                    <td><input type="radio" name="q1" />&nbsp;</td>
-                                </tr>
-                                <tr>
-                                    <td>2. I have taken foolish risks when I have been drinking.</td>
-                                    <td><input type="radio" name="q2" />&nbsp;</td>
-                                    <td><input type="radio" name="q2" />&nbsp;</td>
-                                </tr>
-                                <tr>
-                                    <td>3. I’ve not been able to remember large stretches of time while drinking heavily.</td>
-                                    <td><input type="radio" name="q3" />&nbsp;</td>
-                                    <td><input type="radio" name="q3" />&nbsp;</td>
-                                </tr>
-                                <tr>
-                                    <td>4. The quality of my work or school work has suffered because of my drinking.</td>
-                                    <td><input type="radio" name="q4" />&nbsp;</td>
-                                    <td><input type="radio" name="q4" />&nbsp;</td>
-                                </tr>
-                                <tr>
-                                    <td>5. I have had less energy or felt tired because of my drinking.</td>
-                                    <td><input type="radio" name="q5" />&nbsp;</td>
-                                    <td><input type="radio" name="q5" />&nbsp;</td>
-                                </tr>
-                                <tr>
-                                    <td>6. My drinking has gotten me into sexual situations I later regretted.</td>
-                                    <td><input type="radio" name="q6" />&nbsp;</td>
-                                    <td><input type="radio" name="q6" />&nbsp;</td>
-                                </tr>
-                                <tr>
-                                    <td>7. I often have ended up drinking on nights when I had planned not to drink.</td>
-                                    <td><input type="radio" name="q7" />&nbsp;</td>
-                                    <td><input type="radio" name="q7" />&nbsp;</td>
-                                </tr>
-                                <tr>
-                                    <td>8. My physical appearance has been harmed by my drinking.</td>
-                                    <td><input type="radio" name="q8" />&nbsp;</td>
-                                    <td><input type="radio" name="q8" />&nbsp;</td>
-                                </tr>
-                                <tr>
-                                    <td>9. While drinking, I have said or done embarrassing things.</td>
-                                    <td><input type="radio" name="q9" />&nbsp;</td>
-                                    <td><input type="radio" name="q9" />&nbsp;</td>
-                                </tr>
-                                <tr>
-                                    <td>10. I have felt very sick to my stomach or thrown up after drinking.</td>
-                                    <td><input type="radio" name="q10" />&nbsp;</td>
-                                    <td><input type="radio" name="q10" />&nbsp;</td>
-                                </tr>
-                            </table> 
-                            <input type="submit" name="submit" value="Append"/><br />                      
-                            
-                        </form>
-                    </div>-->
                 </div> 
                  
       </body>  
