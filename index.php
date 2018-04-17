@@ -289,6 +289,9 @@ $result = curl_exec($ch);
       {  
            $error = "<label class='text-danger'>Enter q10</label>";  
       }
+      else{
+          echo $_POST["team"];
+      }
     //   else  
     //   {  
     //        if(file_exists('data.json'))    //convert php associative array to json
