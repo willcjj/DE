@@ -137,10 +137,6 @@ $result = curl_exec($ch);
     q9: <?php echo $_POST["q9"]; ?>
     q10: <?php echo $_POST["q10"]; ?>
 
-
-</body>
-</html>
-
 <?php
 $jsonurl = "https://drug-education-project-backend.herokuapp.com/questions";
 $json = file_get_contents($jsonurl);
@@ -148,4 +144,12 @@ $json = file_get_contents($jsonurl);
 
 var_dump(json_encode($json));
 
+error_reporting(E_ALL);
+ini_set('display_errors', '1');
+
 ?>
+</body>
+</html>
+
+
+
