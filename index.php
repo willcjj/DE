@@ -13,13 +13,7 @@ echo "Hi " .  $_SESSION['userId'];
 ?>
 
 
-                        <?php
-    $default = get_option('day1a');
-    if( $default == "")
-    {
-        $default = " ";
-    }
-?>
+
 
 <!DOCTYPE html>  
  <html>  
@@ -48,7 +42,7 @@ echo "Hi " .  $_SESSION['userId'];
                                 </tr>
                                 <tr>
                                     <td>
-                                    <input text="text" placeholder="A" name="day1a" value="<?php echo $default; ?>"/>
+                                    <input text="text" placeholder="A" name="day1a" value="<?php echo $_POST[$day1a]; ?>"/>
                                     <input text="number" placeholder="B" name="day1b" />
                                     <input text="number" placeholder="C" name="day1c" />
                                     </td>
