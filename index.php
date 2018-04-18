@@ -43,11 +43,11 @@ echo "Hi " .  $_SESSION['userId'];
                                 <tr>
                                     <td>
                                     A
-                                    <input type="text" placeholder="A" name="day1a" value=" "/>
+                                    <input type="text"  name="day1a" value=" "/>
                                     B
-                                    <input type="number" placeholder="B" name="day1b" value=" " />
+                                    <input type="number"  name="day1b" value=" " />
                                     C
-                                    <input type="number" placeholder="C" name="day1c" value=" " />
+                                    <input type="number"  name="day1c" value=" " />
                                     </td>
                                     <td>
                                     A
