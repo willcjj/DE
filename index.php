@@ -32,7 +32,6 @@ echo "Hi " .  $_SESSION['userId'];
                         <form method="post" action="process.php">
                             <table class="calendar">  
                                 <tr>
-                                    <th> </th>
                                     <th>Sunday</th>
                                     <th>Monday</th>
                                     <th>Tuesday</th>
@@ -42,18 +41,9 @@ echo "Hi " .  $_SESSION['userId'];
                                     <th>Saturday</th>
                                 </tr>
                                 <tr>
-                                    <td>A</td>
-                                </tr>
-                                <tr>
-                                    <td>A</td>
-                                </tr>
-                                <tr>
-                                    <td>A</td>
-                                </tr>
-                                <tr>
                                     <td>
                                     <input text="text" placeholder="A" name="day1a" />
-                                    <input text="number" placeholder="B" name="day1b" />
+                                    <input text="number" placeholder="B" name="day1b" pattern="[0-9]"/>
                                     <input text="number" placeholder="C" name="day1c" />
                                     </td>
                                     <td>
