@@ -33,6 +33,7 @@ echo "Hi " .  $_SESSION['userId'];
                         <?php include('error.php'); ?>
                             <table class="calendar">  
                                 <tr>
+                                    <th> </th>
                                     <th>Sunday</th>
                                     <th>Monday</th>
                                     <th>Tuesday</th>
@@ -40,13 +41,6 @@ echo "Hi " .  $_SESSION['userId'];
                                     <th>Thursday</th>
                                     <th>Friday</th>
                                     <th>Saturday</th>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        A
-                                        B
-                                        C
-</td>
                                 </tr>
                                 <tr>
                                     <td>
