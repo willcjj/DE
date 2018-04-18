@@ -1,4 +1,4 @@
-
+// remember to add css(class=highlight)
 
 
 <?php
@@ -19,15 +19,16 @@ echo "Hi " .  $_SESSION['userId'];
 <!DOCTYPE html>  
  <html>  
       <head>  
-           <title>Form</title>  
+           <title>Form</title> 
+           <link rel="stylesheet" type="text/css" href="style.css">
       </head>  
       <body>  
             <div class="main">
                 <div class="q1"> 
                     <h2>1. Alcohol Consumption in the Past 2 Weeks</h2>
-                    <p>For A, did you consume alcohol for that day? Please state <b>Yes</b> or <b>No</b>.</p>
-                    <p>For B, approximately how many drinks did you consume? Please input your amount in <b>whole numbers</b>.</p>
-                    <p>For C, for how long did you consume these drinks (unit: hours)? Please input your amount in <b>whole numbers</b>.</p>
+                    <p>For A, did you consume alcohol for that day? Please state <span class="highlight">Yes</span> or <span class="highlight">No</span>.</p>
+                    <p>For B, approximately how many drinks did you consume? Please input your amount in <span class="highlight">whole numbers</span>.</p>
+                    <p>For C, for how long did you consume these drinks (unit: hours)? Please input your amount in <span class="highlight">whole numbers</span>.</p>
 
                         <form method="post" action="process.php">
                             <table class="calendar">  
