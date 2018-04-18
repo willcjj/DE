@@ -135,7 +135,7 @@ echo "Hi " .  $_SESSION['userId'];
                                 </tr>
                                 <tr>
                                     <td>1. I have had a hangover (headache, sick stomach) the morning after I had been drinking.</td>
-                                    <td><input type="radio" name="q1" value="yes" onClick="submit();" CHECKED/>&nbsp;</td>
+                                    <td><input type="radio" name="q1" value="yes" onClick="submit();" <?php echo (!$_SESSION['q1'] || $_SESSION['q1'] == "yes") ? 'checked="checked"' : ''; ?>/>&nbsp;</td>
                                     <td><input type="radio" name="q1" value="no" />&nbsp;</td>
                                 </tr>
                                 <tr>
