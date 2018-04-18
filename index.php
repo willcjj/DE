@@ -13,6 +13,14 @@ echo "Hi " .  $_SESSION['userId'];
 ?>
 
 
+                        <?php
+    $default = get_option('day1a');
+    if( $default == "")
+    {
+        $default = " ";
+    }
+?>
+
 <!DOCTYPE html>  
  <html>  
       <head>  
@@ -27,13 +35,7 @@ echo "Hi " .  $_SESSION['userId'];
                     <p>For C, for how long did you consume these drinks (unit: hours)? Please input your amount in whole numbers.</p>
 
                         <form method="post" action="process.php">
-                        <?php
-    $default = get_option('day1a');
-    if( $default == "")
-    {
-        $default = " ";
-    }
-?>
+
                             <table class="calendar">  
                                 <tr>
                                     <th>Sunday</th>
