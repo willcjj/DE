@@ -1,4 +1,4 @@
-// remember to add css(class=highlight)
+
 
 
 <?php
@@ -231,7 +231,8 @@ echo "Hi " .  $_SESSION['userId'];
                                 </tr>
                             </table>
                             <br>
-                            <input type="submit" name="submit" value="Submit"/><br />                      
+                            <center><input type="submit" name="submit" value="Submit" /></center>
+                            <br />                      
                             
                         </form>
                     </div>
