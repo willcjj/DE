@@ -1,3 +1,6 @@
+<?php include('error.php') ?>
+
+
 <?php
 session_start();
 
@@ -24,7 +27,7 @@ echo "Hi " .  $_SESSION['userId'];
                     <p>For C, for how long did you consume these drinks (unit: hours)? Please input your amount in whole numbers.</p>
 
                         <form method="post" action="process.php">
-                        <?php include('error.php'); ?>
+                        <?php include('errorProcess.php'); ?>
                         
                             <table class="calendar">  
                                 <tr>
