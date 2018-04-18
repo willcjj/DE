@@ -25,9 +25,9 @@ echo "Hi " .  $_SESSION['userId'];
             <div class="main">
                 <div class="q1"> 
                     <h2>1. Alcohol Consumption in the Past 2 Weeks</h2>
-                    <p>For A, did you consume alcohol for that day? Please state Yes or No.</p>
-                    <p>For B, approximately how many drinks did you consume? Please input your amount in whole numbers.</p>
-                    <p>For C, for how long did you consume these drinks (unit: hours)? Please input your amount in whole numbers.</p>
+                    <p>For A, did you consume alcohol for that day? Please state <b>Yes</b> or <b>No</b>.</p>
+                    <p>For B, approximately how many drinks did you consume? Please input your amount in <b>whole numbers</b>.</p>
+                    <p>For C, for how long did you consume these drinks (unit: hours)? Please input your amount in <b>whole numbers</b>.</p>
 
                         <form method="post" action="process.php">
                             <table class="calendar">  
