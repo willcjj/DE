@@ -42,11 +42,10 @@ echo "Hi " .  $_SESSION['userId'];
                                     <th>Saturday</th>
                                 </tr>
                                 <tr>
-                                    <th>A</th>
-                                    <th>B</th>
-                                    <th>C</th>
-                                </tr>
-                                <tr>
+
+                                <td>A</td>
+                                    <td>B</td>
+                                    <td>C</td>
                                     <td>
                                     <input text="text" placeholder="A" name="day1a" />
                                     <input text="number" placeholder="B" name="day1b" />
