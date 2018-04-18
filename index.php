@@ -27,6 +27,13 @@ echo "Hi " .  $_SESSION['userId'];
                     <p>For C, for how long did you consume these drinks (unit: hours)? Please input your amount in whole numbers.</p>
 
                         <form method="post" action="process.php">
+                        <?php
+    $default = get_option('day1a');
+    if( $default == "")
+    {
+        $default = " ";
+    }
+?>
                             <table class="calendar">  
                                 <tr>
                                     <th>Sunday</th>
@@ -39,9 +46,9 @@ echo "Hi " .  $_SESSION['userId'];
                                 </tr>
                                 <tr>
                                     <td>
-                                    <input text="text" placeholder="A" name="day1a" value=" "/>
-                                    <input text="number" placeholder="B" name="day1b" value=" "/>
-                                    <input text="number" placeholder="C" name="day1c" value=" "/>
+                                    <input text="text" placeholder="A" name="day1a" value="<?php echo $default; ?>"/>
+                                    <input text="number" placeholder="B" name="day1b" />
+                                    <input text="number" placeholder="C" name="day1c" />
                                     </td>
                                     <td>
                                     <input text="text" placeholder="A" name="day2a"/>
@@ -135,7 +142,7 @@ echo "Hi " .  $_SESSION['userId'];
                                 </tr>
                                 <tr>
                                     <td>1. I have had a hangover (headache, sick stomach) the morning after I had been drinking.</td>
-                                    <td><input type="radio" name="q1" value="yes" onClick="submit();" <?php echo (!$_SESSION['q1'] || $_SESSION['q1'] == "yes") ? 'checked="checked"' : ''; ?>/>&nbsp;</td>
+                                    <td><input type="radio" name="q1" value="yes" />&nbsp;</td>
                                     <td><input type="radio" name="q1" value="no" />&nbsp;</td>
                                 </tr>
                                 <tr>
