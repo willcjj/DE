@@ -88,10 +88,11 @@ echo "Hi " .  $_SESSION['userId'];
                                 </tr>
                                 <tr>
                                     <td>
-                                    a
+                                    <p>A</p>
                                     <input type="text" placeholder="A" name="day8a"/>
-                                    b
+                                    <p>B</p>
                                     <input type="number" placeholder="B" name="day8b"/>
+                                    <p>C</p>
                                     <input type="number" placeholder="C" name="day8c"/>
                                     </td>
                                     <td>
