@@ -1,4 +1,4 @@
-<?php include('error.php') ?>
+
 
 
 <?php
@@ -27,8 +27,6 @@ echo "Hi " .  $_SESSION['userId'];
                     <p>For C, for how long did you consume these drinks (unit: hours)? Please input your amount in whole numbers.</p>
 
                         <form method="post" action="process.php">
-                        <?php include('errorProcess.php'); ?>
-                        
                             <table class="calendar">  
                                 <tr>
                                     <th>Sunday</th>
@@ -41,9 +39,9 @@ echo "Hi " .  $_SESSION['userId'];
                                 </tr>
                                 <tr>
                                     <td>
-                                    <input text="text" placeholder="A" name="day1a" />
-                                    <input text="number" placeholder="B" name="day1b"/>
-                                    <input text="number" placeholder="C" name="day1c"/>
+                                    <input text="text" placeholder="A" name="day1a" value=" "/>
+                                    <input text="number" placeholder="B" name="day1b" value=" "/>
+                                    <input text="number" placeholder="C" name="day1c" value=" "/>
                                     </td>
                                     <td>
                                     <input text="text" placeholder="A" name="day2a"/>
