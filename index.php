@@ -42,39 +42,60 @@ echo "Hi " .  $_SESSION['userId'];
                                 </tr>
                                 <tr>
                                     <td>
-                                    <input type="text" placeholder="A" name="day1a" />
-                                    <input type="number" placeholder="B" name="day1b" pattern="[0-9]"/>
-                                    <input type="number" placeholder="C" name="day1c" />
+                                    A
+                                    <input type="text" placeholder="A" name="day1a" value=" "/>
+                                    B
+                                    <input type="number" placeholder="B" name="day1b" value=" " />
+                                    C
+                                    <input type="number" placeholder="C" name="day1c" value=" " />
                                     </td>
                                     <td>
-                                    <input type="text" placeholder="A" name="day2a"/>
-                                    <input type="number" placeholder="B" name="day2b"/>
-                                    <input type="number" placeholder="C" name="day2c"/>
+                                    A
+                                    <input type="text" placeholder="A" name="day2a" value=" " />
+                                    B
+                                    <input type="number" placeholder="B" name="day2b" value=" " />
+                                    C
+                                    <input type="number" placeholder="C" name="day2c" value=" " />
                                     </td>
                                     <td>
-                                    <input type="text" placeholder="A" name="day3a"/>
-                                    <input type="number" placeholder="B" name="day3b"/>
-                                    <input type="number" placeholder="C" name="day3c"/>
+                                    A
+                                    <input type="text" placeholder="A" name="day3a" value=" " />
+                                    B
+                                    <input type="number" placeholder="B" name="day3b" value=" " />
+                                    C
+                                    <input type="number" placeholder="C" name="day3c" value=" " />
                                     </td>
                                     <td>
-                                    <input type="text" placeholder="A" name="day4a"/>
-                                    <input type="number" placeholder="B" name="day4b"/>
-                                    <input type="number" placeholder="C" name="day4c"/>
+                                    A
+                                    <input type="text" placeholder="A" name="day4a" value=" " />
+                                    B
+                                    <input type="number" placeholder="B" name="day4b" value=" " />
+                                    C
+                                    <input type="number" placeholder="C" name="day4c" value=" " />
                                     </td>
                                     <td>
-                                    <input type="text" placeholder="A" name="day5a"/>
-                                    <input type="number" placeholder="B" name="day5b"/>
-                                    <input type="number" placeholder="C" name="day5c"/>
+                                    A
+                                    <input type="text" placeholder="A" name="day5a" value=" " />
+                                    B
+                                    <input type="number" placeholder="B" name="day5b" value=" " />
+                                    C
+                                    <input type="number" placeholder="C" name="day5c" value=" " />
                                     </td>
                                     <td>
-                                    <input type="text" placeholder="A" name="day6a"/>
-                                    <input type="number" placeholder="B"name="day6b"/>
-                                    <input type="number" placeholder="C" name="day6c"/>
+                                    A
+                                    <input type="text" placeholder="A" name="day6a" value=" " />
+                                    B
+                                    <input type="number" placeholder="B"name="day6b" value=" " />
+                                    C
+                                    <input type="number" placeholder="C" name="day6c" value=" " />
                                     </td>
                                     <td>
-                                    <input type="text" placeholder="A" name="day7a"/>
-                                    <input type="number" placeholder="B" name="day7b"/>
-                                    <input type="number" placeholder="C" name="day7c"/>
+                                    A
+                                    <input type="text" placeholder="A" name="day7a" value=" " />
+                                    B
+                                    <input type="number" placeholder="B" name="day7b" value=" " />
+                                    C
+                                    <input type="number" placeholder="C" name="day7c" value=" " />
                                     </td>
                                 </tr>
                                 <tr>
@@ -89,44 +110,59 @@ echo "Hi " .  $_SESSION['userId'];
                                 <tr>
                                     <td>
                                     A
-                                    <input type="text" placeholder="A" name="day8a"/>
+                                    <input type="text" placeholder="A" name="day8a" value=" " />
                                     B
-                                    <input type="number" placeholder="B" name="day8b"/>
+                                    <input type="number" placeholder="B" name="day8b" value=" " />
                                     C
-                                    <input type="number" placeholder="C" name="day8c"/>
+                                    <input type="number" placeholder="C" name="day8c" value=" " />
                                     </td>
                                     <td>
                                     A
-                                    <input type="text" placeholder="A" name="day9a"/>
+                                    <input type="text" placeholder="A" name="day9a" value=" " />
                                     B
-                                    <input type="number" placeholder="B" name="day9b"/>
+                                    <input type="number" placeholder="B" name="day9b" value=" " />
                                     C
-                                    <input type="number" placeholder="C" name="day9c"/>
+                                    <input type="number" placeholder="C" name="day9c" value=" " />
                                     </td>
                                     <td>
-                                    <input type="text" placeholder="A" name="day10a"/>
-                                    <input type="number" placeholder="B" name="day10b"/>
-                                    <input type="number" placeholder="C" name="day10c"/>
+                                    A
+                                    <input type="text" placeholder="A" name="day10a" value=" " />
+                                    B
+                                    <input type="number" placeholder="B" name="day10b" value=" " />
+                                    C
+                                    <input type="number" placeholder="C" name="day10c" value=" " />
                                     </td>
                                     <td>
-                                    <input type="text" placeholder="A" name="day11a"/>
-                                    <input type="number" placeholder="B" name="day11b"/>
-                                    <input type="number" placeholder="C" name="day11c"/>
+                                    A
+                                    <input type="text" placeholder="A" name="day11a" value=" " />
+                                    B
+                                    <input type="number" placeholder="B" name="day11b" value=" " />
+                                    C
+                                    <input type="number" placeholder="C" name="day11c" value=" " />
                                     </td>
                                     <td>
-                                    <input type="text" placeholder="A" name="day12a"/>
-                                    <input type="number" placeholder="B" name="day12b"/>
-                                    <input type="number" placeholder="C" name="day12c"/>
+                                    A
+                                    <input type="text" placeholder="A" name="day12a" value=" " />
+                                    B
+                                    <input type="number" placeholder="B" name="day12b" value=" " />
+                                    C
+                                    <input type="number" placeholder="C" name="day12c" value=" " />
                                     </td>
                                     <td>
-                                    <input type="text" placeholder="A" name="day13a"/>
-                                    <input type="number" placeholder="B" name="day13b"/>
-                                    <input type="number" placeholder="C" name="day13c"/>
+                                    A
+                                    <input type="text" placeholder="A" name="day13a" value=" " />
+                                    B
+                                    <input type="number" placeholder="B" name="day13b" value=" " />
+                                    C
+                                    <input type="number" placeholder="C" name="day13c" value=" " />
                                     </td>
                                     <td>
-                                    <input type="text" placeholder="A" name="day14a"/>
-                                    <input type="number" placeholder="B" name="day14b"/>
-                                    <input type="number" placeholder="C" name="day14c"/>
+                                    A
+                                    <input type="text" placeholder="A" name="day14a" value=" " />
+                                    B
+                                    <input type="number" placeholder="B" name="day14b" value=" " />
+                                    C
+                                    <input type="number" placeholder="C" name="day14c" value=" " />
                                     </td>
                                 </tr>
                             </table> 
