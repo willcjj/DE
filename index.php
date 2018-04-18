@@ -49,6 +49,11 @@ echo "Hi " .  $_SESSION['userId'];
                                     <input text="number" placeholder="C" name="day1c" />
                                     </td>
                                     <td>
+                                    <input text="text" placeholder="A" />
+                                    <input text="number" placeholder="B" />
+                                    <input text="number" placeholder="C" />
+                                    </td>
+                                    <td>
                                     <input text="text" placeholder="A" name="day2a"/>
                                     <input text="number" placeholder="B" name="day2b"/>
                                     <input text="number" placeholder="C" name="day2c"/>
