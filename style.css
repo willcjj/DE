@@ -1,3 +1,24 @@
+body{
+    background-color: #99badd;
+
+}
+
 .highlight {
     background-color:#ee3;
-  }
+}
+
+.main{
+    background-color: white;
+    height: 90%;
+    width: 90%;
+}
+
+.calendar{
+    border: 2px solid black;
+    padding: 1em;
+}
+
+.calendar td{
+    height: 1em;
+    width: 1em;
+}
