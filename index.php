@@ -42,9 +42,9 @@ echo "Hi " .  $_SESSION['userId'];
                                     <th>Saturday</th>
                                 </tr>
                                 <tr>
-                                    <td>A</td>
-                                    <td>B</td>
-                                    <td>C</td>
+                                    <th>A</th>
+                                    <th>B</th>
+                                    <th>C</th>
                                 </tr>
                                 <tr>
                                     <td>
