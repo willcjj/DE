@@ -9,12 +9,10 @@ body{
 
 .main{
     background-color: white;
-    height: 90%;
-    width: 90%;
 }
 
 .calendar{
-    border: 2px solid black;
+    border: 1px solid black;
     padding: 1em;
 }
 
