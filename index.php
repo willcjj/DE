@@ -52,7 +52,7 @@ echo "Hi " .  $_SESSION['userId'];
                                     </td>
                                     <td>
                                     A
-                                    <input type="text" name="day2a" value="" />
+                                    <input type="text" name="day2a" value=" " />
                                     B
                                     <input type="number" name="day2b" value="0" />
                                     C
