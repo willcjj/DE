@@ -1,7 +1,9 @@
 html, body {
+  font-family: 'Open Sans', sans-serif;
   background-color: #4B9CD3;
   margin: 0;
   padding: 0;
+  color: #4B9CD3;
 }
 
 .home {
@@ -18,14 +20,18 @@ html, body {
   opacity: 0.3;
 }
 
+.center {
+  text-align: center;
+}
+
 .description {
   position: relative;
-  width: 60%;
-  background-color: rgba(19,41,75,0.9);
+  width: 80%;
+  background-color: rgba(19,41,75,0.81);
   color: #FFFFFF;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 10em;
+  margin-top: 7em;
   padding: 3%;
 }
 
@@ -33,11 +39,18 @@ html, body {
   line-height: 2em;
 }
 
-.home-button {
-  text-align: center;
+.intro-description {
+  position: relative;
+  width: 80%;
+  background-color: rgba(19,41,75,0.81);
+  color: #FFFFFF;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 7em;
+  padding: 3%;
 }
 
-.home-button button {
+button {
   font-size: 20px;
   color: #4B9CD3;
   width: 25%;
@@ -45,84 +58,44 @@ html, body {
   border: 4px solid #4B9CD3;
   border-radius: 4px;
   cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.home-button button:hover {
+button:hover {
   background-color: #eee;
   border: 4px solid #13294B;
 }
 
-.web-form {
-  background-color: #FFFFFF;
-  width: 80%;
+#assess-button {
   margin-left: auto;
   margin-right: auto;
-  padding: 1em;
 }
 
-.main-form {
-  background-color: #FFFFFF;
-  width: 90%;
-  height: 90%;
+.input-group {
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.calendar {
-  border: 2px solid black;
-  padding: 1em;
-  width: 95%;
-  table-layout: fixed;
+.input-group input {
+  width: 8%;
+  height: 15%;
+  margin-left: 0.5em;
 }
 
-.calendar td {
-  height: 1em;
-  width: 1em;
-}
-.ten{
-    width: 15%;
+select {
+  margin-left: 0.5em;
 }
 
-.calendar th{
-    font-size: 15px;
+.assess {
+  width: 100%;
 }
 
-.box{
-    height: 30px;
-    width: 145px;
+#assess-button {
+  width: 25%;
+  height: 10%;
 }
 
-.button{
-    background-color: #4B9CD3;
-    border: none;
-    color: white;
-    padding: 10px 30px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin-top: 100px;
-    margin-bottom: 30px;
-    cursor: pointer;
-}
-
-h2{
-    font-family: sans-serif;
-    font-size: 25px;
-}
-
-p{
-    font-family: Times New Roman;
-}
-
-
-
-.two {
-    font-family: arial, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
-}
-
-.two td,th {
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 8px;
+#introForm {
+  text-align: center;
 }
