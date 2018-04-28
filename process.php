@@ -100,7 +100,7 @@ $result = curl_exec($ch);
   </head>
   <body>
     <div class="results">
-      <div class="thanks"><h1>Thank you! Your response has been submitted.</h1></div>
+      <div class="thanks"><h2>Thank you! Your response has been submitted.</h2></div>
       <h2>Your results summary:</h2>
       <p>For the past two weeks you have consumed alcohol for a total of <strong><?php
       $yescounter = 0;
@@ -195,7 +195,7 @@ $result = curl_exec($ch);
         echo (int) (($drinkscounter*104)/151);
         ?>
       </strong> hot dogs, <strong><?php echo (int) (($drinkscounter*104)/150) ?></strong>
-      cans of coke, and <strong><?php echo (int) (($drinkscounter*104)/352) ?></strong> slices of
+      cans of coke, <strong><?php echo (int) (($drinkscounter*104)/16) ?></strong> sugar sachet(3g), and <strong><?php echo (int) (($drinkscounter*104)/352) ?></strong> slices of
       chocolate cake.
       </p>
 

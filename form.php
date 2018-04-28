@@ -84,70 +84,70 @@ session_start();
                       <tr>
                         <td>
 
-                        B <input type="number" name="day1b" value="0" />drinks
+                        # <input type="number" name="day1b" value="0" />drinks
                         </td>
                         <td>
 
-                        B <input type="number" name="day2b" value="0" />drinks
+                        # <input type="number" name="day2b" value="0" />drinks
                         </td>
                         <td>
 
-                        B <input type="number" name="day3b" value="0" />drinks
+                        # <input type="number" name="day3b" value="0" />drinks
 
                         <td>
 
-                        B <input type="number" name="day4b" value="0" />drinks
-
-                        </td>
-                        <td>
-
-                        B <input type="number" name="day5b" value="0" />drinks
+                        # <input type="number" name="day4b" value="0" />drinks
 
                         </td>
                         <td>
 
-                        B <input type="number"name="day6b" value="0" />drinks
+                        # <input type="number" name="day5b" value="0" />drinks
+
+                        </td>
+                        <td>
+
+                        # <input type="number"name="day6b" value="0" />drinks
 
                         <td>
 
-                        B <input type="number" name="day7b" value="0" />drinks
+                        # <input type="number" name="day7b" value="0" />drinks
 
                         </td>
                       </tr>
                       <tr>
                           <td>
 
-                          C
+                          T
                           <input type="number" name="day1c" value="0" />minutes
                           </td>
                           <td>
 
-                          C
+                          T
                           <input type="number" name="day2c" value="0" />minutes
                           </td>
                           <td>
 
-                          C
+                          T
                           <input type="number" name="day3c" value="0" />minutes
                           </td>
                           <td>
 
-                          C
+                          T
                           <input type="number" name="day4c" value="0" />minutes
                           </td>
                           <td>
 
-                          C
+                          T
                           <input type="number" name="day5c" value="0" />minutes
                           </td>
                           <td>
 
-                          C
+                          T
                           <input type="number" name="day6c" value="0" />minutes
                           </td>
                           <td>
 
-                          C
+                          T
                           <input type="number" name="day7c" value="0" />minutes
                           </td>
                       </tr>
@@ -206,38 +206,38 @@ session_start();
                       </tr>
                       <tr>
                         <td>
-                        B <input type="number" name="day8b" value="0" />drinks
+                        # <input type="number" name="day8b" value="0" />drinks
                         </td>
                         <td>
 
-                        B
+                        #
                         <input type="number" name="day9b" value="0" />drinks
                         </td>
                         <td>
 
-                        B
+                        #
                         <input type="number" name="day10b" value="0" />drinks
 
                         <td>
 
-                        B
+                        #
                         <input type="number" name="day11b" value="0" />drinks
 
                         </td>
                         <td>
 
-                        B
+                        #
                         <input type="number" name="day12b" value="0" />drinks
 
                         </td>
                         <td>
 
-                        B
+                        #
                         <input type="number"name="day13b" value="0" />drinks
 
                         <td>
 
-                        B
+                        #
                         <input type="number" name="day14b" value="0" />drinks
 
                         </td>
@@ -245,37 +245,37 @@ session_start();
                       <tr>
                           <td>
 
-                          C
+                          T
                           <input type="number" name="day8c" value="0" />minutes
                           </td>
                           <td>
 
-                          C
+                          T
                           <input type="number" name="day9c" value="0" />minutes
                           </td>
                           <td>
 
-                          C
+                          T
                           <input type="number" name="day10c" value="0" />minutes
                           </td>
                           <td>
 
-                          C
+                          T
                           <input type="number" name="day11c" value="0" />minutes
                           </td>
                           <td>
 
-                          C
+                          T
                           <input type="number" name="day12c" value="0" />minutes
                           </td>
                           <td>
 
-                          C
+                          T
                           <input type="number" name="day13c" value="0" />minutes
                           </td>
                           <td>
 
-                          C
+                          T
                           <input type="number" name="day14c" value="0" />minutes
                           </td>
                       </tr>
