@@ -68,3 +68,12 @@ input[type="number"] {
   margin-left: auto;
   margin-right: auto;
 }
+
+tr:nth-child(even){
+  background-color: #ccc;
+}
+
+
+tr:nth-child(even){
+  background-color: #fff;
+}
