@@ -61,7 +61,8 @@ $_SESSION['Team'] = $_POST['team'];
             <p>In fact, UNC Athletics has a policy to ensure you will NOT GET IN TROUBLE for seeking help for substance use, or for your responses in this program.</p>
           <div class="assess">
             <br />
-            <a href="form/form.php"><button id="assess-button">Take the Assessment</button></a>
+              <!-- form/form.php-->
+            <a href="form.php"><button id="assess-button">Take the Assessment</button></a>
           </div>
         </div>
       </div>
