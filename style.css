@@ -73,7 +73,6 @@ input[type="number"] {
   background-color: rgb(146, 250, 186);
 }
 
-
-.trueFalse tr:nth-child(even){
+.trueFalse tr:nth-child(odd){
   background-color: #fff;
 }
