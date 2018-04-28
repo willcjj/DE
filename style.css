@@ -69,11 +69,11 @@ input[type="number"] {
   margin-right: auto;
 }
 
-tr:nth-child(even){
-  background-color: #ccc;
+.trueFalse tr:nth-child(even){
+  background-color: rgb(146, 250, 186);
 }
 
 
-tr:nth-child(even){
+.trueFalse tr:nth-child(even){
   background-color: #fff;
 }
