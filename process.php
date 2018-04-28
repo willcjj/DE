@@ -100,6 +100,7 @@ $result = curl_exec($ch);
   </head>
   <body>
     <div class="results">
+      <div class="thanks"><h1>Thank you! Your response has been submitted.</h1></div>
       <h2>Your results summary:</h2>
       <p>For the past two weeks you have consumed alcohol for a total of <strong><?php
       $yescounter = 0;
@@ -110,17 +111,6 @@ $result = curl_exec($ch);
       }
       echo $yescounter;
       ?></strong> days.</p>
-      <p>In the past two weeks, the amount of drinks you had equates to <strong>
-        <?php
-        $drinkscounter = 0;
-        foreach((array) $jsonData as $key => $val) {
-          if (substr($key, -1) == 'b') {
-            $drinkscounter += $val;
-          }
-        }
-        echo $drinkscounter;
-        ?>
-      </strong> drinks.</p>
       <p>In the past two weeks, you drank for a total of <strong>
         <?php
         $minutescounter = 0;
@@ -149,6 +139,17 @@ $result = curl_exec($ch);
         }
         ?>
       </strong> minutes.</p>
+      <p>In the past two weeks, the amount of drinks you had equates to <strong>
+        <?php
+        $drinkscounter = 0;
+        foreach((array) $jsonData as $key => $val) {
+          if (substr($key, -1) == 'b') {
+            $drinkscounter += $val;
+          }
+        }
+        echo $drinkscounter;
+        ?>
+      </strong> drinks.</p>
       <p>Here are the symptoms or actions you've reported:
         <ul>
         <strong>

@@ -151,7 +151,6 @@ session_start();
                           <input type="number" name="day7c" value="0" />minutes
                           </td>
                       </tr>
-                      <tr><th> </th></tr>
                       <tr>
                           <th>Sunday</th>
                           <th>Monday</th>
