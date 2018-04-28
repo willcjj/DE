@@ -206,7 +206,7 @@ session_start();
                       </tr>
                       <tr>
                         <td>
-                        B <input type="number" name="day8b" value="0" />drinks
+                        B <input type="number" name="day8b" value="0" /><italic>drinks</italic>
                         </td>
                         <td>
 
