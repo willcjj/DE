@@ -39,43 +39,43 @@ session_start();
                       </tr>
                       <tr>
                           <td>
-                          A
+                          A:
                           Yes <input type="radio" name="day1a" value="yes"/>
                           No <input type="radio" name="day1a" value="no"/>
 
                           </td>
                           <td>
-                          A
+                          A:
                           Yes <input type="radio" name="day2a" value="yes" />
                           No <input type="radio" name="day2a" value="no" />
 
                           </td>
                           <td>
-                          A
+                          A:
                           Yes <input type="radio" name="day3a" value="yes" />
                           No <input type="radio" name="day3a" value="no" />
 
                           </td>
                           <td>
-                          A
+                          A:
                           Yes <input type="radio" name="day4a" value="yes" />
                           No <input type="radio" name="day4a" value="no" />
 
                           </td>
                           <td>
-                          A
+                          A:
                           Yes <input type="radio" name="day5a" value="yes" />
                           No <input type="radio" name="day5a" value="no" />
 
                           </td>
                           <td>
-                          A
+                          A:
                           Yes <input type="radio" name="day6a" value="yes" />
                           No <input type="radio" name="day6a" value="no" />
 
                           </td>
                           <td>
-                          A
+                          A:
                           Yes <input type="radio" name="day7a" value="yes" />
                           No <input type="radio" name="day7a" value="no" />
 
@@ -84,70 +84,70 @@ session_start();
                       <tr>
                         <td>
 
-                        # <input type="number" name="day1b" value="0" />drinks
+                        B: # <input type="number" name="day1b" value="0" />drinks
                         </td>
                         <td>
 
-                        # <input type="number" name="day2b" value="0" />drinks
+                        B: # <input type="number" name="day2b" value="0" />drinks
                         </td>
                         <td>
 
-                        # <input type="number" name="day3b" value="0" />drinks
+                        B: # <input type="number" name="day3b" value="0" />drinks
 
                         <td>
 
-                        # <input type="number" name="day4b" value="0" />drinks
-
-                        </td>
-                        <td>
-
-                        # <input type="number" name="day5b" value="0" />drinks
+                        B: # <input type="number" name="day4b" value="0" />drinks
 
                         </td>
                         <td>
 
-                        # <input type="number"name="day6b" value="0" />drinks
+                        B: # <input type="number" name="day5b" value="0" />drinks
+
+                        </td>
+                        <td>
+
+                        B: # <input type="number"name="day6b" value="0" />drinks
 
                         <td>
 
-                        # <input type="number" name="day7b" value="0" />drinks
+                        B: # <input type="number" name="day7b" value="0" />drinks
 
                         </td>
                       </tr>
                       <tr>
                           <td>
 
-                          T
+                          T:
                           <input type="number" name="day1c" value="0" />minutes
                           </td>
                           <td>
 
-                          T
+                          T:
                           <input type="number" name="day2c" value="0" />minutes
                           </td>
                           <td>
 
-                          T
+                          T:
                           <input type="number" name="day3c" value="0" />minutes
                           </td>
                           <td>
 
-                          T
+                          T:
                           <input type="number" name="day4c" value="0" />minutes
                           </td>
                           <td>
 
-                          T
+                          T:
                           <input type="number" name="day5c" value="0" />minutes
                           </td>
                           <td>
 
-                          T
+                          T:
                           <input type="number" name="day6c" value="0" />minutes
                           </td>
                           <td>
 
-                          T
+                          T:
                           <input type="number" name="day7c" value="0" />minutes
                           </td>
                       </tr>
@@ -162,43 +162,43 @@ session_start();
                       </tr>
                       <tr>
                           <td>
-                          A
+                          A:
                           Yes <input type="radio" name="day8a" value="yes"/>
                           No <input type="radio" name="day8a" value="no"/>
 
                           </td>
                           <td>
-                          A
+                          A:
                           Yes <input type="radio" name="day9a" value="yes" />
                           No <input type="radio" name="day9a" value="no" />
 
                           </td>
                           <td>
-                          A
+                          A:
                           Yes <input type="radio" name="day10a" value="yes" />
                           No <input type="radio" name="day10a" value="no" />
 
                           </td>
                           <td>
-                          A
+                          A:
                           Yes <input type="radio" name="day11a" value="yes" />
                           No <input type="radio" name="day11a" value="no" />
 
                           </td>
                           <td>
-                          A
+                          A:
                           Yes <input type="radio" name="day12a" value="yes" />
                           No <input type="radio" name="day12a" value="no" />
 
                           </td>
                           <td>
-                          A
+                          A:
                           Yes <input type="radio" name="day13a" value="yes" />
                           No <input type="radio" name="day13a" value="no" />
 
                           </td>
                           <td>
-                          A
+                          A:
                           Yes <input type="radio" name="day14a" value="yes" />
                           No <input type="radio" name="day14a" value="no" />
 
@@ -206,38 +206,38 @@ session_start();
                       </tr>
                       <tr>
                         <td>
-                        # <input type="number" name="day8b" value="0" />drinks
+                        B: # <input type="number" name="day8b" value="0" />drinks
                         </td>
                         <td>
 
-                        #
+                        B: #
                         <input type="number" name="day9b" value="0" />drinks
                         </td>
                         <td>
 
-                        #
+                        B: #
                         <input type="number" name="day10b" value="0" />drinks
 
                         <td>
 
-                        #
+                        B: #
                         <input type="number" name="day11b" value="0" />drinks
 
                         </td>
                         <td>
 
-                        #
+                        B: #
                         <input type="number" name="day12b" value="0" />drinks
 
                         </td>
                         <td>
 
-                        #
+                        B: #
                         <input type="number"name="day13b" value="0" />drinks
 
                         <td>
 
-                        #
+                        B: #
                         <input type="number" name="day14b" value="0" />drinks
 
                         </td>
@@ -245,37 +245,37 @@ session_start();
                       <tr>
                           <td>
 
-                          T
+                          T:
                           <input type="number" name="day8c" value="0" />minutes
                           </td>
                           <td>
 
-                          T
+                          T:
                           <input type="number" name="day9c" value="0" />minutes
                           </td>
                           <td>
 
-                          T
+                          T:
                           <input type="number" name="day10c" value="0" />minutes
                           </td>
                           <td>
 
-                          T
+                          T:
                           <input type="number" name="day11c" value="0" />minutes
                           </td>
                           <td>
 
-                          T
+                          T:
                           <input type="number" name="day12c" value="0" />minutes
                           </td>
                           <td>
 
-                          T
+                          T:
                           <input type="number" name="day13c" value="0" />minutes
                           </td>
                           <td>
 
-                          T
+                          T:
                           <input type="number" name="day14c" value="0" />minutes
                           </td>
                       </tr>

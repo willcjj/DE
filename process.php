@@ -195,7 +195,7 @@ $result = curl_exec($ch);
         echo (int) (($drinkscounter*104)/151);
         ?>
       </strong> hot dogs, <strong><?php echo (int) (($drinkscounter*104)/150) ?></strong>
-      cans of coke, <strong><?php echo (int) (($drinkscounter*104)/16) ?></strong> sugar sachet(3g), and <strong><?php echo (int) (($drinkscounter*104)/352) ?></strong> slices of
+      cans of coke, <strong><?php echo (int) (($drinkscounter*104)/16) ?></strong> packets of sugar sachet(3g), and <strong><?php echo (int) (($drinkscounter*104)/352) ?></strong> slices of
       chocolate cake.
       </p>
 
