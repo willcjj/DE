@@ -151,6 +151,7 @@ session_start();
                           <input type="number" name="day7c" value="0" />minutes
                           </td>
                       </tr>
+                      <tr><th> </th></tr>
                       <tr>
                           <th>Sunday</th>
                           <th>Monday</th>
@@ -206,7 +207,7 @@ session_start();
                       </tr>
                       <tr>
                         <td>
-                        B <input type="number" name="day8b" value="0" /><italic>drinks</italic>
+                        B <input type="number" name="day8b" value="0" />drinks
                         </td>
                         <td>
 

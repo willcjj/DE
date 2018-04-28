@@ -70,9 +70,10 @@ input[type="number"] {
 }
 
 .trueFalse tr:nth-child(even){
-  background-color: #4B9CD3;
+  background-color: #99badd;
 }
 
 .trueFalse tr:nth-child(odd){
   background-color: #fff;
 }
+
