@@ -206,39 +206,39 @@ session_start();
                       </tr>
                       <tr>
                         <td>
-                        B <input type="number" name="day8b" value="0" />
+                        B <input type="number" name="day8b" value="0" />drinks
                         </td>
                         <td>
 
                         B
-                        <input type="number" name="day9b" value="0" />
+                        <input type="number" name="day9b" value="0" />drinks
                         </td>
                         <td>
 
                         B
-                        <input type="number" name="day10b" value="0" />
+                        <input type="number" name="day10b" value="0" />drinks
 
                         <td>
 
                         B
-                        <input type="number" name="day11b" value="0" />
-
-                        </td>
-                        <td>
-
-                        B
-                        <input type="number" name="day12b" value="0" />
+                        <input type="number" name="day11b" value="0" />drinks
 
                         </td>
                         <td>
 
                         B
-                        <input type="number"name="day13b" value="0" />
+                        <input type="number" name="day12b" value="0" />drinks
+
+                        </td>
+                        <td>
+
+                        B
+                        <input type="number"name="day13b" value="0" />drinks
 
                         <td>
 
                         B
-                        <input type="number" name="day14b" value="0" />
+                        <input type="number" name="day14b" value="0" />drinks
 
                         </td>
                       </tr>
@@ -246,37 +246,37 @@ session_start();
                           <td>
 
                           C
-                          <input type="number" name="day8c" value="0" />
+                          <input type="number" name="day8c" value="0" />minutes
                           </td>
                           <td>
 
                           C
-                          <input type="number" name="day9c" value="0" />
+                          <input type="number" name="day9c" value="0" />minutes
                           </td>
                           <td>
 
                           C
-                          <input type="number" name="day10c" value="0" />
+                          <input type="number" name="day10c" value="0" />minutes
                           </td>
                           <td>
 
                           C
-                          <input type="number" name="day11c" value="0" />
+                          <input type="number" name="day11c" value="0" />minutes
                           </td>
                           <td>
 
                           C
-                          <input type="number" name="day12c" value="0" />
+                          <input type="number" name="day12c" value="0" />minutes
                           </td>
                           <td>
 
                           C
-                          <input type="number" name="day13c" value="0" />
+                          <input type="number" name="day13c" value="0" />minutes
                           </td>
                           <td>
 
                           C
-                          <input type="number" name="day14c" value="0" />
+                          <input type="number" name="day14c" value="0" />minutes
                           </td>
                       </tr>
                   </table>
