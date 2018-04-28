@@ -23,8 +23,8 @@ session_start();
               <div class="q1">
               <h2>1. Alcohol Consumption in the Past 2 Weeks</h2>
               <p>For <strong>A</strong>, did you consume alcohol for that day? Please state <span class="highlight">Yes</span> or <span class="highlight">No</span>.</p>
-              <p>For <strong>B</strong>, approximately how many drinks did you consume? Please input your amount in <span class="highlight">whole numbers</span>.</p>
-              <p>For <strong>C</strong>, for how long did you consume these drinks <strong>(unit: minutes)</strong>? Please input your amount in <span class="highlight">whole numbers</span>.</p>
+              <p>For <strong>#</strong>, approximately how many drinks did you consume? Please input your amount in <span class="highlight">whole numbers</span>.</p>
+              <p>For <strong>T</strong>, for how long did you consume these drinks <strong>(unit: minutes)</strong>? Please input your amount in <span class="highlight">whole numbers</span>.</p>
 
               <form method="post" action="process.php">
                   <table class="calendar">
@@ -84,33 +84,33 @@ session_start();
                       <tr>
                         <td>
 
-                        B: # <input type="number" name="day1b" value="0" />drinks
+                        #: <input type="number" name="day1b" value="0" />drinks
                         </td>
                         <td>
 
-                        B: # <input type="number" name="day2b" value="0" />drinks
+                        #: <input type="number" name="day2b" value="0" />drinks
                         </td>
                         <td>
 
-                        B: # <input type="number" name="day3b" value="0" />drinks
+                        #: <input type="number" name="day3b" value="0" />drinks
 
                         <td>
 
-                        B: # <input type="number" name="day4b" value="0" />drinks
-
-                        </td>
-                        <td>
-
-                        B: # <input type="number" name="day5b" value="0" />drinks
+                        #: <input type="number" name="day4b" value="0" />drinks
 
                         </td>
                         <td>
 
-                        B: # <input type="number"name="day6b" value="0" />drinks
+                        #: <input type="number" name="day5b" value="0" />drinks
+
+                        </td>
+                        <td>
+
+                        #: <input type="number"name="day6b" value="0" />drinks
 
                         <td>
 
-                        B: # <input type="number" name="day7b" value="0" />drinks
+                        #: <input type="number" name="day7b" value="0" />drinks
 
                         </td>
                       </tr>
@@ -206,38 +206,38 @@ session_start();
                       </tr>
                       <tr>
                         <td>
-                        B: # <input type="number" name="day8b" value="0" />drinks
+                        #: <input type="number" name="day8b" value="0" />drinks
                         </td>
                         <td>
 
-                        B: #
+                        #:
                         <input type="number" name="day9b" value="0" />drinks
                         </td>
                         <td>
 
-                        B: #
+                        #:
                         <input type="number" name="day10b" value="0" />drinks
 
                         <td>
 
-                        B: #
+                        #:
                         <input type="number" name="day11b" value="0" />drinks
 
                         </td>
                         <td>
 
-                        B: #
+                        #:
                         <input type="number" name="day12b" value="0" />drinks
 
                         </td>
                         <td>
 
-                        B: #
+                        #:
                         <input type="number"name="day13b" value="0" />drinks
 
                         <td>
 
-                        B: #
+                        #:
                         <input type="number" name="day14b" value="0" />drinks
 
                         </td>
